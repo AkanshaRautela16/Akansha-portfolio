@@ -40,6 +40,7 @@ This color palette is carefully chosen to reflect academic excellence and profes
 ```
 Akansha-portfolio/
 ├── index.html       # Main HTML file
+├── Akansha.png      # Profile image
 ├── styles.css       # Styling and layout
 ├── script.js        # Interactive functionality
 └── README.md        # This file
@@ -59,9 +60,9 @@ Replace the placeholder text in `index.html`:
 
 ### 2. **Profile Image**
 ```html
-<img src="https://via.placeholder.com/200" alt="Profile Picture">
+<img src="./Akansha.png" alt="Akansha Rautela">
 ```
-Replace the placeholder URL with your actual profile image:
+The portfolio uses the included `Akansha.png` profile image:
 - Recommended size: 200x200 pixels
 - Recommended format: JPG or PNG
 - Recommended to use a professional headshot
