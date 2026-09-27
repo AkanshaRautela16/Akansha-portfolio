@@ -563,7 +563,8 @@ body {
 .advisors {
     color: var(--dark-text);
     font-size: 0.95rem;
-    margin-top: 0.5rem;
+    margin-top: 0.15rem;
+    line-height: 1.5;
 }
 
 .achievement {
@@ -856,7 +857,7 @@ body {
    ============================================ */
 
 .advisors {
-    padding: 4rem 0;
+    padding: 1rem 0;
     background-color: var(--light-bg);
 }
 
