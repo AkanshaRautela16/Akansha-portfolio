@@ -213,7 +213,14 @@ body {
 .publication-link + .publication-link {
     margin-left: 1.25rem;
 }
-
+.logo img {
+    width: 46px;
+    height: 46px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 3px;
+    object-fit: contain;
+}
 /* ============================================
    CONTAINER & UTILITIES
    ============================================ */
