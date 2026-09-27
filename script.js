@@ -188,8 +188,8 @@ function createScrollToTopButton() {
         right: 2rem;
         width: 50px;
         height: 50px;
-        background-color: #1B3A6B;
-        color: #D4AF37;
+        background-color: var(--primary-color);
+        color: var(--accent-color);
         border: none;
         border-radius: 50%;
         cursor: pointer;
@@ -401,6 +401,6 @@ document.addEventListener('DOMContentLoaded', addPrintStyles);
 // ============================================
 
 console.log('%cWelcome to Akansha Rautela\'s Portfolio! 👋', 'font-size: 16px; font-weight: bold; color: #1B3A6B;');
-console.log('%cFeel free to explore and get in touch!', 'font-size: 12px; color: #B8860B;');
+console.log('%cFeel free to explore and get in touch!', 'font-size: 12px; color: #8A5A00;');
 console.log('%cKeyboard Shortcuts:', 'font-weight: bold;');
 console.log('%cCtrl + H: Home | Ctrl + A: About | Ctrl + C: Contact', 'font-size: 11px;');
