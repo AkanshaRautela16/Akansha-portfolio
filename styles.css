@@ -117,13 +117,11 @@ body {
 /* ============================================
    HERO SECTION
    ============================================ */
-
 .hero {
     background: linear-gradient(135deg, #F4F7FA 0%, #FFFFFF 100%);
     color: var(--dark-text);
-    padding: 6rem 2rem;
+    padding: 4rem 2rem 3rem;
     text-align: center;
-    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,11 +136,14 @@ body {
     margin-bottom: 2rem;
 }
 
+/* Profile photo with red ring */
 .profile-image img {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
-    border: 5px solid var(--accent-color);
+    padding: 5px;
+    background-color: var(--white);
+    border: 6px solid #D10505;
     object-fit: cover;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
@@ -156,7 +157,7 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--secondary-color);
     margin-bottom: 1.5rem;
     font-weight: 600;
@@ -174,6 +175,24 @@ body {
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+/* Quick links under the CV button */
+.hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.hero-links a {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    transition: var(--transition);
+}
+
+.hero-links a:hover {
+    color: var(--secondary-color);
 }
 
 .btn {
@@ -213,26 +232,6 @@ body {
 .publication-link + .publication-link {
     margin-left: 1.25rem;
 }
-.logo img {
-    width: 46px;
-    height: 46px;
-    background-color: var(--white);
-    border-radius: 50%;
-    padding: 3px;
-    object-fit: contain;
-}
-
-/* Red ring around profile photo */
-.profile-image img {
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-    padding: 5px;
-    background-color: var(--white);
-    border: 6px solid #D10505;
-    object-fit: cover;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-}
 
 /* IIT Delhi logo in navigation */
 .logo {
@@ -242,24 +241,12 @@ body {
 }
 
 .logo img {
-    width: 80px;
-    height: 80px;
+    width: 52px;
+    height: 52px;
     background-color: var(--white);
     border-radius: 50%;
     padding: 3px;
-}
-
-.logo-text {
-    font-size: 1.4rem;
-}
-
-@media (max-width: 480px) {
-    .profile-image img {
-        width: 170px;
-        height: 170px;
-        border-width: 12px;
-        padding: 4px;
-    }
+    object-fit: contain;
 }
 /* ============================================
    CONTAINER & UTILITIES
